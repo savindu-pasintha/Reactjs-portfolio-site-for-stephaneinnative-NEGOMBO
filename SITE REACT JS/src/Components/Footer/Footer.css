@@ -1,0 +1,83 @@
+#bg{
+
+    width: 100%;
+    height: auto;
+    color:blanchedalmond;
+    
+
+    /* DarkBlue */
+
+    background: #010916;
+}
+
+#pbox{
+   position: static;
+   width: 255px;
+   height: 96px;
+}
+ .img{
+    background-image: url('./cyx.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 142px;
+    height: 50px; 
+     border: 1px solid white;
+     border-radius: 25px;
+
+}
+.img:hover{
+    cursor: pointer;
+    border:none;
+    border-radius: 25px;
+}
+
+.lankaimg{
+    background-image: url('./Asset\ 5.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background:crimson;
+}
+.pt{
+    padding-top: 100px;
+}
+
+li h1{
+    font-size:20px ;
+}
+li h4{
+    font-size: 14px;
+}
+
+
+
+#float{
+    display: inline-flex;
+    padding: 10px;
+}
+
+.changes:hover{
+   cursor: pointer;
+   font-size: 25px;
+   color:burlywood;
+    }
+
+h1:hover {
+       cursor: pointer;
+       font-size: 25px;
+       color: chocolate;
+   }
+h4:hover {
+    cursor: pointer;
+    font-size: 16px;
+    color: burlywood;
+}
+
+p:hover {
+    cursor: pointer;
+    font-size: 16px;
+    color: burlywood;
+}
+ 

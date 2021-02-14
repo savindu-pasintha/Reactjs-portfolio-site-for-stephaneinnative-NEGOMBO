@@ -1,0 +1,44 @@
+/*@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+*/
+*{
+    box-sizing: border-box;
+}
+
+.artboard-1 {
+    background-color:white;
+    height: 474px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    transform:rotate(0deg);
+    left:45px;
+}
+
+.artboard-1 .ellipse-1 {
+    background-color: var(--pizza);
+    border-radius: 322px/294.5px;
+    height: 589px;
+    left: 85px;
+    top: -116px;
+    width: 700px;
+    position: absolute;
+   transform:rotate(0deg);
+}
+
+.artboard-1 .ellipse-2 {
+    border-radius: 176px/170.5px;
+    height: 341px;
+    left: 130px;
+    position: absolute;
+    top: 100px;
+    width: 352px;
+    transform:rotate(0deg);
+    
+}
+
+
+
+:root {
+    --dove-gray: rgba(112, 112, 112, 1);
+    --pizza: rgba(203, 158, 13, 0.969);
+}

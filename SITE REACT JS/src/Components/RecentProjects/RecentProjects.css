@@ -1,0 +1,83 @@
+
+#one{
+   
+    width: 365px;
+    height: 730px;
+    background-color: rgb(202, 234, 240);
+  
+}
+
+#two{
+
+width: 730px;
+height: 365px;
+background-color: rgb(202, 234, 240);
+}
+#three{
+width: 365px;
+height: 365px;
+background-color: rgb(202, 234, 240);
+}
+
+#four{
+    width: 365px;
+    height: 365px;
+    background-color: rgb(202, 234, 240);
+}
+#five{
+    width: 730px;
+    height: 730px;
+   background-color: rgb(202, 234, 240);}
+#six{
+width: 365px;
+height: 730px;
+background-color: rgb(202, 234, 240);
+}
+
+/**/
+@media all and  (max-width: 500px){
+#one {
+
+    width: 365px;
+    height: 730px;
+    background-color: darkseagreen;
+
+}
+
+#two {
+
+    width: 730px;
+    height: 365px;
+    background-color: red;
+}
+
+#three {
+    width: 365px;
+    height: 365px;
+    background-color: darkslateblue;
+}
+
+#four {
+    width: 365px;
+    height: 365px;
+    background-color: darkturquoise;
+}
+
+#five {
+    width: 730px;
+    height: 730px;
+    background-color: deeppink;
+}
+
+#six {
+    background-image: url("./ProjectCover3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    
+    width: 365px;
+    height: 730px;
+   
+}
+
+}
