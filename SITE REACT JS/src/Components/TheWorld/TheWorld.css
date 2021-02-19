@@ -1,0 +1,86 @@
+
+.TheWorld{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#FDC830, #F37335);
+    width: 100%;
+    height: auto;
+   
+}
+
+.TheWorld h1{
+ font-size: 45px;
+ width:100%;
+ height:auto;
+ text-align: center;
+  color: aliceblue;
+}
+.TheWorld p{
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    color: aliceblue;
+}
+
+#h1:hover {
+    font-size: 44px;
+    color: aliceblue;
+}
+#p:hover {
+    font-size: 19px;
+    color: aliceblue;
+}
+
+.TheWorld .image{
+   
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    
+    
+}
+
+
+.TheWorld .row,
+.col-md-6 {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    margin: 0;
+}
+
+@media screen and (max-width:370px) {
+.TheWorld{
+
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(white, red);
+      width: 370px;
+      height: auto;
+       color: black;
+}
+.row, .col-md-6{
+    width: 100%;
+    height: auto;
+     padding:0;
+     margin:0;
+}
+.TheWorld .image {
+
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+   
+
+
+}
+.TheWorld h1,
+p {
+    color: black;
+}
+
+}

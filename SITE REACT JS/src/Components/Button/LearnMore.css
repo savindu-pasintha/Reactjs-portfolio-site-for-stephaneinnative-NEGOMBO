@@ -1,0 +1,10 @@
+#btn:hover{
+    padding-left: 20px;
+    cursor: pointer;
+    color:blue;
+}
+
+#btn{
+   
+    color:gray;
+}

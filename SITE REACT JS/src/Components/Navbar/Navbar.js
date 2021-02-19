@@ -6,6 +6,15 @@ import Footer from "../Footer/Footer";
 import Look from "../LookBoostYourBusiness/Look";
 import ListenYourClient from "../ListenYourClient/ListenYourClient";
 import RecentProjects from "../RecentProjects/RecentProjects";
+import Building from "../Building/Building";
+import GroupLeading from "../GroupLeading/GroupLeading";
+import TheWorld from "../TheWorld/TheWorld";
+import OneSame from "../OneSame/OneSame";
+import TwoSame from "../TwoSame/TwoSame";
+import ThreeSame from "../ThreeSame/ThreeSame";
+import FourSame from "../FourSame/FourSame";
+import FiveSame from "../FiveSame/FiveSame";
+import Services from "../Services/Services";
 
 function Navbar() {
   const fonts = {
@@ -93,10 +102,28 @@ function Navbar() {
         </div>
       </nav>
 
-      <RecentProjects />
+      <Building />
+      <GroupLeading />
+      <TheWorld />
+      <OneSame />
+      <TwoSame />
+      <ThreeSame />
+      <FourSame />
+      <FiveSame />
+      <Services />
       <ListenYourClient />
+      <RecentProjects />
       <Look />
       <Footer />
+      {/**
+       * 
+       *  
+       <ListenYourClient />
+      <RecentProjects />
+    
+      <Look />
+      <Footer />
+       */}
     </div>
   );
 }

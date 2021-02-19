@@ -1,0 +1,59 @@
+section {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.FourSame .row {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.FourSame .row .col-md-6 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.FourSame h3 {
+    font-size: 14px;
+    padding: 5%;
+}
+
+#lines {
+    justify-content: flex-start;
+}
+
+.FourSame .row .col-md-6 .padd {
+    padding-left: 0;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+section #rightimage {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width:450px) {
+    section {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    section #rightimage {
+        width: 450px;
+        height: auto;
+
+    }
+
+}
